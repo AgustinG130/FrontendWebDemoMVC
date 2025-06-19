@@ -1,0 +1,19 @@
+.logo-container {
+    width: 100%;
+    max-width: 50px;
+}
+
+#logo {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.logo-container img {
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,53 @@
+#post{
+    background-color: rgba(0, 0, 0, 0.165);
+    width: 35vw;
+    height: auto;
+    font-size: 1.8rem;
+    margin-top: 5vh;
+    border-radius: 5%;
+    color:white;
+    resize: none;
+    transition: height 0.1s ease;
+    border: 0.1vh solid white;
+    padding-bottom: 4vh;
+}
+
+#preview-image {
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    max-height: 40vh;
+}
+
+.profile-image{
+    width: auto;
+    height: 100%;
+    max-width: 100%;
+    max-height: 3vh;
+}
+
+.user-name{
+    margin-top: 1vh;
+    font-size: 1.5rem;
+}
+
+.date-post{
+    font-size: 1rem;
+}
+
+.title-post{
+    font-size: 2.25rem;
+}
+
+.theme-post{
+    font-size: 1rem;
+}
+
+#post{
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+#post:hover{
+    transform: scale(1.02);
+}

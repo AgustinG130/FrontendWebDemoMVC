@@ -1,0 +1,89 @@
+#custompost{
+    background-color: rgba(0, 0, 0, 0.165);
+    width: 35vw;
+    height: auto;
+    font-size: 1.8rem;
+    margin-top: 2vh;
+    border-radius: 5%;
+    color:white;
+    resize: none;
+    transition: height 0.1s ease;
+    padding-bottom: 4vh;
+    overflow-y: hidden;
+}
+
+#custompost::placeholder{
+
+    color:white;
+    opacity: 0.75;
+
+}
+
+.btn-post{
+
+    color: white;
+    background-color: rgb(30, 36, 111);
+    border-color: white;
+    width: 40%;
+    height: 95%;
+    font-size: 2vh;
+}
+
+.inputfile{
+
+    color: white;
+    background-color: rgb(30, 36, 111);
+    border-color: white;
+    width: 50%;
+    height: 3vh;
+    padding-bottom: 2.5vh;
+    font-size: 1.25vh;
+    margin-right: 1.5vh;
+}
+
+.post-buttons{
+    width: 50%;
+    height: 5vh;
+    
+}
+
+.post-title{
+    background-color: rgba(0, 0, 0, 0.165);
+    width: 35vw;
+    height: auto;
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+    border-radius: 5%;
+    color:white;
+    resize: none;
+    transition: height 0.1s ease;
+    padding-bottom: 4vh;
+    overflow-y: hidden;
+}
+
+.post-theme{
+    background-color: rgba(0, 0, 0, 0.165);
+    width: 35vw;
+    height: auto;
+    font-size: 1.8rem;
+    margin-top: 4vh;
+    border-radius: 5%;
+    color:white;
+    resize: none;
+    transition: height 0.1s ease;
+    padding-bottom: 4vh;
+    overflow-y: hidden;
+}
+
+
+.post-title::placeholder{
+
+    color:white;
+    opacity: 0.75;
+
+}
+
+.post-theme::placeholder{
+    color:white;
+    opacity: 0.75;
+}

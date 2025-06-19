@@ -1,0 +1,46 @@
+.background-bar {
+    width: 100%;
+    height: auto;
+    min-height: 10vh;
+    position: relative;
+}
+
+.search-bar {
+    max-width: 67vh;
+    margin-right: 3vh;
+    color:white;
+}  
+
+.search-bar input {
+    background-color: rgb(23, 13, 61);
+    border: 0.1vh solid white;
+    color: white;    
+}
+
+.search-bar button {
+    background-color: rgb(30, 36, 111);
+    color: black;
+    border: 0.1vh solid white;
+}
+
+.search-bar-container {
+
+    padding: 2vh 4vw;
+}
+
+.search-bar input::placeholder{
+    color: white;
+}
+
+.logo-ucuditt-container {
+    width: 100px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+#addon-wrapping{
+    color:white;
+}
