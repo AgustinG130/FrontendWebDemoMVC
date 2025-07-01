@@ -24,7 +24,7 @@ Para instalar y ejecutar correctamente la versión web del proyecto, es necesari
 
 ### Configuración y ejecución del backend:
 
-- En postgres tener la base de datos creada con el nombre "Ucuddit" y haber ejecutado el script, si no puedes editar una linea del [backend](https://github.com/AgustinG130/UcudditBackendJava) en `“resources/aplication.propierties”` llamada `“spring.jpa.hibernate.ddl-auto=update”` cambiando el `“update”` por `“drop-create”` se te creará automáticamente cuando lo ejecutes solo no te olvides de cambiarlo nuevamente a “update” porque si no tu base de datos se borrará y creará cada vez que ejecutes el backend.
+- En postgres tener la base de datos creada con el nombre "Ucuddit" y haber ejecutado el script, si no puedes editar una linea del [backend](https://github.com/AgustinG130/BackendJavaDemoMVC) en `“resources/aplication.propierties”` llamada `“spring.jpa.hibernate.ddl-auto=update”` cambiando el `“update”` por `“drop-create”` se te creará automáticamente cuando lo ejecutes solo no te olvides de cambiarlo nuevamente a “update” porque si no tu base de datos se borrará y creará cada vez que ejecutes el backend.
 - Ejecuta el backend en el archivo llamado `“DemoApplication”` en `“\demo\demo\src\main\java\com\example\demo\”` y déjalo funcionando en segundo plano para que el frontend pueda utilizarlo.
 
 ### Ejecución del proyecto web:
@@ -42,27 +42,4 @@ La arquitectura del frontend de mi sistema se basa en el patrón de diseño Comp
 
 `axios.get()` para obtener datos de la API y `axios.post()` para enviar datos desde el cliente al servidor.
 
-[Arquitectura del backend](https://github.com/AgustinG130/UcudditBackendJava)
-
-## Decisiones Técnicas:
-
-### Diseño de Componentes para Posts y Comentarios:
-
-Durante el desarrollo de los componentes `Post` y `Comment`, decidí mantenerlos separados para permitir ajustes específicos y facilitar futuras modificaciones sin afectar a ambos. Opté por pasar el ID ya sea de post o comment como prop a los componentes `“OtherButtons”` en lugar de usar `useContext`, ya que los datos son específicos de cada post o comentario, lo que garantiza una comunicación más directa y una estructura sencilla.
-
-### Diseño de lógica de likes y comentarios:
-
-Durante el desarrollo de la lógica de likes y comentarios surgieron los componentes `“OtherButtons”` ya que los consideré como reutilizables y evitar tanta lógica en un componente único.
-Para los comentarios, utilicé `“useNavigate”` para redirigir al usuario a la página del post específico (según id, además de asignarlo al path) con sus comentarios.
-
-## Aplicación:
-
-### Web:
-
-- ![Home](public/home.webp)
-- ![PostPage](public/postpage.webp)
-
-**Nota mas imágenes disponibles en la carpeta public, las adjuntadas anto web y mobile son con la aplicación en funcionamiento.**
-
-##
-Agustín García
+[Arquitectura del backend](https://github.com/AgustinG130/BackendJavaDemoMVC)
